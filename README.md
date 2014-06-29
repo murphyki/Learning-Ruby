@@ -1,3 +1,4 @@
 Learning-Ruby
 ==============
-Learning all things ruby
+Learning the ruby way
+Learning rspec 
