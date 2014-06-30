@@ -8,7 +8,8 @@ describe User do
   
   it "should have a name assigned to it" do
     user = User.new
-    expect(user).to set_name("user1")
+    user.name = "user1"
+    expect(user.name).to eq("user1")
   end
 end
 
