@@ -18,5 +18,9 @@ describe User do
   it "should have a role assigned to it" do
     expect(@user.role).to eq("role1")
   end
+  
+  it "should not be an admin" do
+    expect(@user).to_not be_admin()
+  end
 end
 

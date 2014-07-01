@@ -4,4 +4,8 @@ class User
   def in_role?(role)
     @role == role
   end
+  
+  def admin?()
+    false
+  end
 end
